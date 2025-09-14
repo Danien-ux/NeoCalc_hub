@@ -1,0 +1,17 @@
+<header>Daily News Admin</header>
+
+<main>
+  <form id="postForm">
+    <input type="text" id="title" placeholder="News Title" required />
+    <textarea id="content" placeholder="News Content" rows="6" required></textarea>
+    <input type="text" id="imageURL" placeholder="Image URL (optional)" />
+    <input type="text" id="videoURL" placeholder="Video URL (optional)" />
+    <button type="button" onclick="postNews()">Publish News</button>
+  </form>
+
+  <div id="stats">
+    <h3>Admin Stats</h3>
+    <p>Total News Posts: <span id="totalNews">0</span></p>
+    <p>Total Users (commenting emails): <span id="totalUsers">0</span></p>
+  </div>
+</main>
